@@ -1,0 +1,12 @@
+<map id="inc/ObiektGraficzny.hh" name="inc/ObiektGraficzny.hh">
+<area shape="rect" id="node2" href="$_prostokat_8hh.html" title="inc/Prostokat.hh" alt="" coords="26,80,143,107"/>
+<area shape="rect" id="node3" href="$main_8cpp.html" title="src/main.cpp" alt="" coords="161,304,258,331"/>
+<area shape="rect" id="node5" href="$_robot_8hh.html" title="inc/Robot.hh" alt="" coords="276,155,372,181"/>
+<area shape="rect" id="node6" href="$_scena_8hh.html" title="inc/Scena.hh" alt="" coords="400,229,499,256"/>
+<area shape="rect" id="node9" href="$_sciezka_8hh.html" title="inc/Sciezka.hh" alt="" coords="273,80,381,107"/>
+<area shape="rect" id="node10" href="$_obiekt_graficzny_8cpp.html" title="src/ObiektGraficzny.cpp" alt="" coords="456,80,619,107"/>
+<area shape="rect" id="node11" href="$_rysowanie_8cpp.html" title="src/Rysowanie.cpp" alt="" coords="644,80,778,107"/>
+<area shape="rect" id="node4" href="$_prostokat_8cpp.html" title="src/Prostokat.cpp" alt="" coords="22,155,147,181"/>
+<area shape="rect" id="node8" href="$_robot_8cpp.html" title="src/Robot.cpp" alt="" coords="272,229,376,256"/>
+<area shape="rect" id="node7" href="$_scena_8cpp.html" title="src/Scena.cpp" alt="" coords="396,304,503,331"/>
+</map>

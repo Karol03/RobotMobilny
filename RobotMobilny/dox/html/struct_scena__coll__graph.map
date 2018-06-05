@@ -1,0 +1,6 @@
+<map id="Scena" name="Scena">
+<area shape="rect" id="node2" href="$class_sciezka.html" title="Sciezka Klasa dziedziczaca po klasie ObiektGraficzny. Przedstawia droge jaka pokonuje Robot..." alt="" coords="5,171,75,197"/>
+<area shape="rect" id="node3" href="$class_obiekt_graficzny.html" title="Klasa przedstawia podstawowe wartosci jakie musi posiadac obiekt rysowany w GNU plocie. " alt="" coords="11,95,127,121"/>
+<area shape="rect" id="node5" href="$class_robot.html" title="Klasa Robot dziedziczy po klasie ObiektGraficzny. " alt="" coords="99,171,157,197"/>
+<area shape="rect" id="node4" href="$class_wektor2_d.html" title="Klasa pokazuje rozwiazanie wektora o dwoch wymiarach oraz pozwala na podstawowe operacje dla niego..." alt="" coords="29,5,110,32"/>
+</map>

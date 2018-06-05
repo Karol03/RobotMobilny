@@ -1,0 +1,169 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.8"/>
+<title>Robot Mobilny: Plik źródłowy inc/Robot.hh</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Robot Mobilny
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.8.8 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Szukaj');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Strona&#160;główna</span></a></li>
+      <li><a href="namespaces.html"><span>Przestrzenie&#160;nazw</span></a></li>
+      <li><a href="annotated.html"><span>Klasy</span></a></li>
+      <li class="current"><a href="files.html"><span>Pliki</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Szukaj" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;plików</span></a></li>
+      <li><a href="globals.html"><span>Składowe&#160;plików</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('_robot_8hh_source.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Klasy</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Przestrzenie nazw</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Pliki</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funkcje</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Zmienne</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Wyliczenia</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Wartości wyliczeń</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Definicje</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">Robot.hh</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_robot_8hh.html">Idź do dokumentacji tego pliku.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef ROBOT_HH</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define ROBOT_HH</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_obiekt_graficzny_8hh.html">ObiektGraficzny.hh</a>&quot;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_wektor2_d_8hh.html">Wektor2D.hh</a>&quot;</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_sciezka_8hh.html">Sciezka.hh</a>&quot;</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div>
+<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="class_robot.html">   18</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_robot.html">Robot</a></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;  : <span class="keyword">public</span> <a class="code" href="class_obiekt_graficzny.html">ObiektGraficzny</a></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;{</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;  <span class="keywordtype">int</span> _Szybkosc;  </div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;  <a class="code" href="class_wektor2_d.html">Wektor2D</a> _Kierunek; </div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;  <a class="code" href="class_robot.html#a4fc7c70ae20623f05e06f2ecb388b6c4">Robot</a>();</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;  <a class="code" href="class_robot.html">Robot</a> <a class="code" href="class_robot.html#ac9c67e258b5cab7b9ac44b13fe13f412">Idz</a>();</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
+<div class="line"><a name="l00046"></a><span class="lineno"><a class="line" href="class_robot.html#aa9ee0fd5bafb59b90bf16e55f7e1dc25">   46</a></span>&#160;  <a class="code" href="class_robot.html">Robot</a> <a class="code" href="class_robot.html#aa9ee0fd5bafb59b90bf16e55f7e1dc25">UstawSzybkosc</a>(<span class="keywordtype">int</span> n_sz){ _Szybkosc = n_sz; <span class="keywordflow">return</span> (*<span class="keyword">this</span>);}</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div>
+<div class="line"><a name="l00052"></a><span class="lineno"><a class="line" href="class_robot.html#a2f26db56c20c3360374f4888cd862ed7">   52</a></span>&#160;  <span class="keyword">const</span> <span class="keywordtype">int</span> <a class="code" href="class_robot.html#a2f26db56c20c3360374f4888cd862ed7">Szybkosc</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> _Szybkosc; }</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;  <span class="keyword">const</span> <a class="code" href="class_wektor2_d.html">Wektor2D</a> <a class="code" href="class_robot.html#a3e736e4cdde99a95d612861d78c1a072">ZmienKierunek</a>(<span class="keywordtype">int</span> kat);</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;  </div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;  <span class="keywordtype">void</span> <a class="code" href="class_robot.html#abcbbe16a7040964e20932593041cc8d4">Obroc</a>(<span class="keywordtype">int</span> Kat);</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;</div>
+<div class="line"><a name="l00071"></a><span class="lineno"><a class="line" href="class_robot.html#a303788a189c10cb2cdf6823d11a14eba">   71</a></span>&#160;  <span class="keyword">const</span> <a class="code" href="class_wektor2_d.html">Wektor2D</a> <a class="code" href="class_robot.html#a303788a189c10cb2cdf6823d11a14eba">centrum</a>()<span class="keyword"> const</span>{ <span class="keywordflow">return</span> <a class="code" href="class_obiekt_graficzny.html#a7a47e3023b6a37b2a8ca66cf74914ffd">_WspGlob</a>; }</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;};</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="ttc" id="class_obiekt_graficzny_html"><div class="ttname"><a href="class_obiekt_graficzny.html">ObiektGraficzny</a></div><div class="ttdoc">Klasa przedstawia podstawowe wartosci jakie musi posiadac obiekt rysowany w GNU plocie. </div><div class="ttdef"><b>Definition:</b> <a href="_obiekt_graficzny_8hh_source.html#l00028">ObiektGraficzny.hh:28</a></div></div>
+<div class="ttc" id="class_robot_html_ac9c67e258b5cab7b9ac44b13fe13f412"><div class="ttname"><a href="class_robot.html#ac9c67e258b5cab7b9ac44b13fe13f412">Robot::Idz</a></div><div class="ttdeci">Robot Idz()</div><div class="ttdoc">Przeciazenie operatora funkcyjnego, wykonuje zadanie ruchu robota. </div><div class="ttdef"><b>Definition:</b> <a href="_robot_8cpp_source.html#l00030">Robot.cpp:30</a></div></div>
+<div class="ttc" id="class_robot_html_a3e736e4cdde99a95d612861d78c1a072"><div class="ttname"><a href="class_robot.html#a3e736e4cdde99a95d612861d78c1a072">Robot::ZmienKierunek</a></div><div class="ttdeci">const Wektor2D ZmienKierunek(int kat)</div><div class="ttdoc">Zmienia wektor kierunkowy robota o zadany kat. </div><div class="ttdef"><b>Definition:</b> <a href="_robot_8cpp_source.html#l00021">Robot.cpp:21</a></div></div>
+<div class="ttc" id="class_robot_html"><div class="ttname"><a href="class_robot.html">Robot</a></div><div class="ttdoc">Klasa Robot dziedziczy po klasie ObiektGraficzny. </div><div class="ttdef"><b>Definition:</b> <a href="_robot_8hh_source.html#l00018">Robot.hh:18</a></div></div>
+<div class="ttc" id="class_obiekt_graficzny_html_a7a47e3023b6a37b2a8ca66cf74914ffd"><div class="ttname"><a href="class_obiekt_graficzny.html#a7a47e3023b6a37b2a8ca66cf74914ffd">ObiektGraficzny::_WspGlob</a></div><div class="ttdeci">Wektor2D _WspGlob</div><div class="ttdoc">Wektor przesuniecia wzgledem punktu (0,0) ukladu globalnego. </div><div class="ttdef"><b>Definition:</b> <a href="_obiekt_graficzny_8hh_source.html#l00033">ObiektGraficzny.hh:33</a></div></div>
+<div class="ttc" id="class_robot_html_a303788a189c10cb2cdf6823d11a14eba"><div class="ttname"><a href="class_robot.html#a303788a189c10cb2cdf6823d11a14eba">Robot::centrum</a></div><div class="ttdeci">const Wektor2D centrum() const </div><div class="ttdoc">Zwraca wektor na srodek robota. </div><div class="ttdef"><b>Definition:</b> <a href="_robot_8hh_source.html#l00071">Robot.hh:71</a></div></div>
+<div class="ttc" id="class_robot_html_a2f26db56c20c3360374f4888cd862ed7"><div class="ttname"><a href="class_robot.html#a2f26db56c20c3360374f4888cd862ed7">Robot::Szybkosc</a></div><div class="ttdeci">const int Szybkosc() const </div><div class="ttdoc">Zwraca szybkosc robota. </div><div class="ttdef"><b>Definition:</b> <a href="_robot_8hh_source.html#l00052">Robot.hh:52</a></div></div>
+<div class="ttc" id="_wektor2_d_8hh_html"><div class="ttname"><a href="_wektor2_d_8hh.html">Wektor2D.hh</a></div></div>
+<div class="ttc" id="_sciezka_8hh_html"><div class="ttname"><a href="_sciezka_8hh.html">Sciezka.hh</a></div></div>
+<div class="ttc" id="class_robot_html_a4fc7c70ae20623f05e06f2ecb388b6c4"><div class="ttname"><a href="class_robot.html#a4fc7c70ae20623f05e06f2ecb388b6c4">Robot::Robot</a></div><div class="ttdeci">Robot()</div><div class="ttdoc">Konstruktor bezparametryczny, podczas tworzenia robota sa mu przypisywane wartosci w ukladzie lokalny...</div><div class="ttdef"><b>Definition:</b> <a href="_robot_8cpp_source.html#l00003">Robot.cpp:3</a></div></div>
+<div class="ttc" id="class_robot_html_abcbbe16a7040964e20932593041cc8d4"><div class="ttname"><a href="class_robot.html#abcbbe16a7040964e20932593041cc8d4">Robot::Obroc</a></div><div class="ttdeci">void Obroc(int Kat)</div><div class="ttdoc">Obraca robota o zadany kat. </div></div>
+<div class="ttc" id="class_robot_html_aa9ee0fd5bafb59b90bf16e55f7e1dc25"><div class="ttname"><a href="class_robot.html#aa9ee0fd5bafb59b90bf16e55f7e1dc25">Robot::UstawSzybkosc</a></div><div class="ttdeci">Robot UstawSzybkosc(int n_sz)</div><div class="ttdoc">Ustawia predkosc robota. </div><div class="ttdef"><b>Definition:</b> <a href="_robot_8hh_source.html#l00046">Robot.hh:46</a></div></div>
+<div class="ttc" id="_obiekt_graficzny_8hh_html"><div class="ttname"><a href="_obiekt_graficzny_8hh.html">ObiektGraficzny.hh</a></div></div>
+<div class="ttc" id="class_wektor2_d_html"><div class="ttname"><a href="class_wektor2_d.html">Wektor2D</a></div><div class="ttdoc">Klasa pokazuje rozwiazanie wektora o dwoch wymiarach oraz pozwala na podstawowe operacje dla niego...</div><div class="ttdef"><b>Definition:</b> <a href="_wektor2_d_8hh_source.html#l00020">Wektor2D.hh:20</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_bfccd401955b95cf8c75461437045ac0.html">inc</a></li><li class="navelem"><a class="el" href="_robot_8hh.html">Robot.hh</a></li>
+    <li class="footer">Wygenerowano Cz, 4 maj 2017 17:19:57 dla Robot Mobilny programem
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
+  </ul>
+</div>
+</body>
+</html>

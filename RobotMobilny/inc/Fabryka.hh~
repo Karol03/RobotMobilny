@@ -1,0 +1,33 @@
+#include <iostream>
+#include <memory>
+#include "Scena.hh"
+#include "ObiektGraficzny.hh"
+#include "Prostokat.hh"
+#include "Robot.hh"
+
+
+/*! \file Klasa jest r
+ *
+ */
+class FabrykaObjektow{
+  
+  static FabrykaObjektow* _Fabryka;
+
+  FabrykaObjektow(){}
+  
+  public:
+
+  static FabrykaObjektow& Fabryka(){ return *_Fabryka; }
+  
+  /*! \brief Dodaje obiekt na scene 
+   * \retval true jezeli udalo sie dodac obiekt
+   */
+  std::shared_ptr<ObiektGraficzny> DodajObiekt(RodzajObiektu, Wektor2D);
+
+  
+  /*! \brief Usuwa wskazany obiekt ze sceny
+   * \retval false jezeli usuwanie nie powiodlo sie 
+   */
+  bool UsunObiekt();
+  
+};

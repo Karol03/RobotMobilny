@@ -1,0 +1,4 @@
+<map id="Robot" name="Robot">
+<area shape="rect" id="node2" href="$class_obiekt_graficzny.html" title="Klasa przedstawia podstawowe wartosci jakie musi posiadac obiekt rysowany w GNU plocie. " alt="" coords="5,95,121,121"/>
+<area shape="rect" id="node3" href="$class_wektor2_d.html" title="Klasa pokazuje rozwiazanie wektora o dwoch wymiarach oraz pozwala na podstawowe operacje dla niego..." alt="" coords="23,5,104,32"/>
+</map>

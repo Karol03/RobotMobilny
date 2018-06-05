@@ -1,0 +1,4 @@
+<map id="ObiektGraficzny" name="ObiektGraficzny">
+<area shape="rect" id="node2" href="$class_robot.html" title="Klasa Robot dziedziczy po klasie ObiektGraficzny. " alt="" coords="5,80,63,107"/>
+<area shape="rect" id="node3" href="$class_sciezka.html" title="Sciezka Klasa dziedziczaca po klasie ObiektGraficzny. Przedstawia droge jaka pokonuje Robot..." alt="" coords="87,80,157,107"/>
+</map>
